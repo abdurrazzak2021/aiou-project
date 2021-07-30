@@ -1,0 +1,30 @@
+
+
+.full-content{
+    background-color: #264653;
+}
+.fulls-border{
+    border-color: #264653;
+}
+
+.grayscale{
+    filter: grayscale(100%);
+}
+/* .grayscale:hover{
+    filter: grayscale(0%);
+} */
+
+.Regina-Miles{
+    color: #23A6F0;
+}
+.text-color{
+	color: rgb(240, 11, 228);
+}
+
+
+/*---------------------------*/
+
+
+/* copyright css */
+.copysec{background:rgb(34, 54, 77);padding:5px;text-align:center}
+

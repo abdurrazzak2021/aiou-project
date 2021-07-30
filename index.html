@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- jquery link -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bjqs.css">
+    <link rel="stylesheet" href="js/acor.js">
+    <link rel="stylesheet" href="js/bjqs-1.3.min.js">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+    <header class="full-content pt-5 ">
+        <!-- Navber -->
+        <section class="container mb-1 d-f d-flex justify-content-end pb-3">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success px-4 fw-bold text-white b-color ms-1 text-decoration-none"
+                                    aria-current="page" href="#">হোম</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success px-4 fw-bold text-white b-color ms-1 text-decoration-none"
+                                    aria-current="page" href="#">শপ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-success px-4 fw-bold text-white b-color ms-1 text-decoration-none"
+                                    aria-current="page" href="#">নিউজ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle btn btn-outline-success px-4 py-2 fw-bold text-white b-color ms-1 text-decoration-none"
+                                    href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    কন্টাক্ট
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-decoration-none" href="#">বোর্ড সদস্য</a></li>
+                                    <li><a class="dropdown-item text-decoration-none" href="#">ফাউন্ডার</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-decoration-none" href="#">ছাত্র</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <div>
+                            <form class="d-flex">
+                                <a href="from.html"
+                                    class=" btn btn-outline-primary px-4 fw-bold ms-5 text-decoration-none"
+                                    target="_blank" type="submit">লগিং</a>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Header Banner -->
+        <section class="container mb-4">
+            <div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div>
+                            <div class="card-body fs-6">
+                                <h2 class="text-white fw-lighter">Advanced Islamic Online University <br> (<span
+                                        class="card-title text-white fw-bold">AIOU</span>)
+                                </h2>
+                                <p class="card-text"><span class="font-color fw-lighter text-white">সফলতা কখনোই সুখের
+                                        চাবিকাঠি হতে
+                                        পারে না বরং সুখই হলো সফলতার চাবিকাঠি। তাই সফল হতে হলে অবশ্যই আপনাকে কঠোর পরিশ্রম
+                                        করতে হবে হোক সেটা শারীরিক অথবা মানুসিক। তাই বন্ধুরা আশাকরি আপনাদের কাছে আমার এই
+                                        সফলতা নিয়ে উক্তি সমূহ আপনাদের কিছুটা হলেও কাজে দিবে।</span></p>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="fs-3 btn btn-outline-primary px-5" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    AIOU</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                “ আমি স্বপ্ন দেখেছিলাম, সেই স্বপ্নে আস্থা ছিল। আর আমি কাজটা ভালোবাসতাম।
+                                                ফেসবুক বিফল হলেও আমার ভালোবাসাটা থাকত। জীবনে একটা স্বপ্ন থাকতে হয়, সেই
+                                                স্বপ্নকে ভালোও বাসতে হয়॥ ” <br>
+
+                                                ---- মার্ক জুকারবার্গ।
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Ok</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="ms-4 mb-5 px-3">
+                            <img class="w-100 border border-1" src="img/03-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- home section starts  -->
+
+    <!-- home section ends -->
+
+    <!-- start Basic Jquery Slider -->
+    <section class="container pb-3 pt-4">
+        <div>
+            <h3 class="Regina-Miles border-start border-success border-4 fw-bold ps-2 mt-4"><span><a
+                        class="text-decoration-none" href="#"> আমাদের
+                        কোর্সসমূহ</a></span> </h3>
+            <p class="text-success mt-2">Aiou একাডেমির কোর্সসমূহ</p>
+        </div>
+        <div class="row">
+            <div class="col-6">
+
+                <div class="border-top border-primary border-5">
+                    <div class="border-bottom border-success border-5">
+                        <div class="border-end border-danger border-5">
+                            <div class="border-start border-dark border-5">
+                                <div class="p-3">
+                                    <div class="bnrLft">
+                                        <div id="banner-slide">
+                                            <ul class="bjqs">
+                                                <li><img src="images/banner01.jpg" alt="">
+                                                    <div class="bjqs-caption">
+                                                        <h2>WHAT WE OFFER</h2>
+                                                        <p>Lorem ipsum dolor sit amet, <br>
+                                                            consectetur adipisicing elit</p>
+                                                        <a href="#">READ MORE</a>
+                                                    </div>
+                                                </li>
+                                                <li><img src="images/banner02.jpg" alt="">
+                                                    <div class="bjqs-caption">
+                                                        <h2>WHAT WE OFFER</h2>
+                                                        <p class="text-white">Lorem ipsum dolor sit amet, <br>
+                                                            consectetur adipisicing elit</p>
+                                                        <a href="#">READ MORE</a>
+                                                    </div>
+                                                </li>
+                                                <li><img src="images/banner03.jpg" alt="">
+                                                    <div class="bjqs-caption">
+                                                        <h2>WHAT WE OFFER</h2>
+                                                        <p class="text-white">Lorem ipsum dolor sit amet, <br>
+                                                            consectetur adipisicing elit</p>
+                                                        <a href="#">READ MORE</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <!-- end Basic jQuery Slider -->
+                                        </div>
+                                    </div>
+                                    <!-- End outer wrapper -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="border-top border-primary border-5">
+                    <div class="border-bottom border-success border-5">
+                        <div class="border-end border-danger border-5">
+                            <div class="border-start border-dark border-5">
+                                <img height="410px" class="w-100 p-3" src="img/02.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Frequently section -->
+    <section class="container pb-3">
+        <div class="border border-primary border-1">
+            <section class="container pt-5 pb-1 d-flex justify-content-center align-content-center">
+                <div>
+                    <div>
+                        <p class="fs-3 fw-bold text-sm-center">লাইভ <span>
+                                <a class="text-decoration-none" target="_blank"
+                                    href="https://www.facebook.com/111705073866011/videos/815620772490719">প্রোগ্রাম</a></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container pb-5">
+                <div class="container px-4">
+                    <div
+                        class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 d-flex justify-content-center align-items-center gx-5">
+                        <div class="col">
+                            <div class="p-3">
+                                <img class="w-100 px-5 p-4" src="img/01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item mb-2">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            জিলহজ মাসের
+                                            ফজিলত ও করণীয়
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                            আলহামদুলিল্লাহ, Advanced Islamic Online University
+                                            <code><a href="https://hunarit.com/" target="_blank">[AIOU]</a></code> পেইজ
+                                            থেকে
+                                            "জিলহজ মাসের
+                                            প্রথম দশকের ফজিলত ও করণীয়" বিষয়ক লাইভ প্রোগ্রামের আয়োজন করা
+                                            হয়েছে।
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item mb-2">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseTwo">
+                                            অতিথি ও আলোচক
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            মুফতি আনোয়ার হুসাইন দা.বা. মুহাদ্দিস, জামালুল কুরআন মাদরাসা, ঢাকা। ইমাম ও
+                                            খতিব,
+                                            ফরাশগঞ্জ জামে মসজিদ, ঢাকা।
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item mb-2">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseThree">
+                                            প্রোগ্রাম সঞ্চালক
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            আল-আমিন সাদেক ফাউন্ডার এন্ড ডিরেক্টর এআইওইউ দাওয়াহ এন্ড ইসলামি স্টাডিজ,
+                                            ইসলামি
+                                            আরবি
+                                            বিশ্ববিদ্যালয়
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item mb-4">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseFour">
+                                            সময়
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            মঙ্গলবার, রাত ১০ টা, ৬ জুলাই'২১
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+
+    <!-- footer section starts  -->
+    <footer class="full-content pt-5">
+        <section class="container text-white">
+            <div class="row g-2">
+                <div class="col-5 px-4">
+                    <h4 class="border-start border-3 ps-3">About Us</h4>
+                    <p class="pt-3">উন্নত ইসলামী অনলাইন বিশ্ববিদ্যালয় (AEIOU) একাডেমি বাংলাদেশের ইসলামিক অনলাইন কোর্সের
+                        জন্য
+                        শীর্ষস্থানীয় ই-লার্নিং প্ল্যাটফর্ম। আমাদের
+                        অনলাইন কোর্সগুলি সারা বিশ্বের সেরা ইসলামিক স্কলার এবং প্রতিটি ক্ষেত্রের বিশেষজ্ঞদের সহযোগিতায়
+                        ডিজাইন করা হয়েছে। আমাদের মানের বিষয়বস্তু, সেরা পরিষেবা এবং নির্ভরযোগ্য শিক্ষকরা একজন
+                        শিক্ষার্থীকে ইসলামের প্রয়োজনীয়তা, মেধা-বিকাশ এবং আরও অনেক কিছু শিখতে সহায়তা করবে।</p>
+                </div>
+                <div class="col-4">
+                    <h4 class="border-start border-3 ps-3">আমাদের বিশেষত্ব</h4>
+                    <div class="p-2">
+                        <p>✰ নির্ভরযোগ্য উস্তাযদের মাধ্যমে পাঠদান <br>
+                            ✰ সম্পূর্ণ পর্দার পরিবেশ নিশ্চিতকরণ <br>
+                            ✰ শিক্ষার্থীদের বিশেষ যত্ন নেয়া <br>
+                            ✰ মানসম্পন্ন কোর্স কন্টেন্ট <br>
+                            ✰ অংশগ্রহণমূলক ক্লাস <br>
+                            ✰ কোর্স শেষে সার্টিফিকেট প্রদান <br>
+                            ✰ নিয়মিত ফ্রি সেমিনার/দারস আয়োজন <br>
+                            ✰ একাডেমী ম্যাগাজিন প্রকাশ</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row m-0">
+                        <div class="border-start border-3">
+                            <h5>যোগাযোগ</h5>
+                        </div>
+                        <div class="pt-3">
+                            <h5>AEIOU</h5>
+                            <p>Phone:
+                                +88017---------
+                            </p>
+                            <p>Email: info@aiouacademy@gmail.com
+                            </p>
+                            <p>Website:https://www.aioubd.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p class="p-bottom copysec text-white fw-light p-3 mt-3 m-0">Copyright: &copy; AIOU 2020 | All Rights Reserved |
+            DEVELOPED BY: HUNAR-IT</p>
+    </footer>
+
+    <!-- jquery slider -->
+
+    <script class="secret-source">
+        jQuery(document).ready(function ($) {
+
+            $('#banner-slide').bjqs({
+                animtype: 'slide',
+                height: 395,
+                width: 617,
+                responsive: true,
+                randomstart: true
+            });
+
+        });
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+    <script type="text/javascript" src="js/acor.js">
+
+        /***********************************************
+        * Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+        * Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+        * This notice must stay intact for legal use
+        ***********************************************/
+
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
